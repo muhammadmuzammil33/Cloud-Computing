@@ -2,15 +2,17 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Beautiful gradient background */
     margin: 0;
-    padding: 0;
     height: 100vh; /* Full height */
+    width: 100vw; /* Full width */
     display: flex; /* Centering */
     justify-content: center; /* Centering */
     align-items: center; /* Centering */
+    position: relative; /* Positioning for absolute children */
 }
 
 .container {
     text-align: center; /* Center text */
+    position: absolute; /* Allow movement */
 }
 
 h1 {
@@ -18,4 +20,3 @@ h1 {
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: transform 0.3s; /* Smooth transition */
 }
-
