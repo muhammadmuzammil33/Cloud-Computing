@@ -8,4 +8,3 @@ nameElement.addEventListener('click', () => {
     // Move the name element to the new position
     nameElement.style.transform = `translate(${x}px, ${y}px)`;
 });
-
